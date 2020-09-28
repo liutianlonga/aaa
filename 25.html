@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.a{
+			background: #000;
+			height: 25px;
+			width: 100%;
+			overflow: hidden;
+		}
+		.b{
+			background: red;
+			background-image: linear-gradient(to right,rgba(0, 0, 0, .9)15%,rgba(0, 0, 0, .1)50%,rgba(0, 0, 0, .9)85% );
+			height: 100%;
+			width: 20%;
+			animation: 1.5s linear 0s infinite alternate move_eye;
+		}
+		@keyframes move_eye{
+			from{
+				margin-left: -20%;
+			}
+			to{
+				margin-left: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		<div class="b"></div>
+	</div>
+</body>
+</html>
