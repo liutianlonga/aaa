@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		a{
+			text-decoration: none;
+			color: #000;
+		}
+		.pages{
+			font-size: 0;
+			text-align: center;
+		}
+		.pages .arr{
+			background:#999;
+		}
+		.pages .act,.pages a:hover{
+			color: #fff;
+			background: red;
+			border-color: red;
+			position: relative;
+		}
+		.pages a{
+			border: 1px solid #000;
+			display: inline-block;
+			font-size: 14px;
+			width: 24px;
+			height: 24px;
+			text-align: center;
+	    line-height: 24px;
+	    margin-left:-1px;
+		}
+		.pages span{
+			font-size: 14px;
+			margin-left: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="pages">
+	<a href="#" class="arr">&lt;</a>
+	<a href="#">1</a>
+	<a href="#" class="act">2</a>
+	<a href="#">3</a>
+	<a href="#">4</a>
+	<a href="#">5</a>
+	<a href="#">6</a>
+	<a href="#" class="arr">&gt;</a>
+	<span>共100页</span>
+	</div>
+</body>
+</html>
